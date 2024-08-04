@@ -3,9 +3,9 @@
 ## File Structure
 for any day `n`(01-to-25)
 
-day_n/
-├── dayn.cpp
-└── input.txt
+- day_n/
+	- dayn.cpp
+	- input.txt
 
 Put your specific input in input.txt. Filename is used as cli input to the
 executable.
