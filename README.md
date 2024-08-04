@@ -1,21 +1,35 @@
 # Learning c++ with AdventOfCode-2021
 
 ## File Structure
-for any day `n`
-- day0n/
-    - Makefile
-    - testinput.txt
-    - input.txt
-    - day0n.cpp
+for any day `n`(01-to-25)
 
-Paste your specific input in input.txt or testinput.txt. Filename is used as cli input to the executable.
+day_n/
+├── dayn.cpp
+└── input.txt
+
+Put your specific input in input.txt. Filename is used as cli input to the
+executable.
 
 ## Compile and Run
-It uses Makefile so you need `make` installed. Run `make` to compile, executable will be called `day0n`. 
+It uses cmake so you need `cmake` installed and added to your path. 
 
-Windows users may have `make` under a different alias.
+Create a `build` directory at the root of this repository and run the following
+commands from it:
+
+```
+$ cmake ..
+
+$ cmake --build .
+```
+
+This will give you executables in build directory named in the format `dayn`
+where `n` is the day number.
+
+To run any particular days solution:
 
 ```shell
-$ make
-$ ./day0n input.txt
+$ ./day03
+usage: ./day01 <inputfile>
+
+$ ./day03 ../day_03/input.txt
 ```
