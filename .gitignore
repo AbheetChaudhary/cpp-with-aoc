@@ -33,3 +33,7 @@
 
 # Build Directory
 build/
+
+# Day local files
+day_0*/Makefile
+day_0*/testinput.txt
