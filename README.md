@@ -29,7 +29,7 @@ To run any particular days solution:
 
 ```shell
 $ ./day03
-usage: ./day01 <inputfile>
+usage: ./day03 <inputfile>
 
 $ ./day03 ../day_03/input.txt
 ```
