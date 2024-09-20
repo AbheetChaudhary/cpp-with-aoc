@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 3.27)
 
 project(AdventOfCode-2021 VERSION 0.0.1 LANGUAGES CXX)
 
-set(CXX_FLAGS "-Wall -Wextra -Werror -O2")
+set(CXX_FLAGS "-Wall -Wextra -Werror -O2 -std=c++20")
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} ${CXX_FLAGS}")
 
 add_executable(day01 ./day_01/day01.cpp)
@@ -12,3 +12,4 @@ add_executable(day04 ./day_04/day04.cpp)
 add_executable(day05 ./day_05/day05.cpp)
 add_executable(day06 ./day_06/day06.cpp)
 add_executable(day07 ./day_07/day07.cpp)
+add_executable(day08 ./day_08/day08.cpp)

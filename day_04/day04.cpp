@@ -166,8 +166,8 @@ found_winning_card:
 }
 
 void part2(const std::vector<int>& random_inputs, std::vector<Card> cards) {
-    int last_winning_number;
-    Card last_winning_card;
+    int last_winning_number = -1;
+    Card last_winning_card = 0;
 
     // Whenever a Card wins, put it this vector and erase once all the
     // cards have been processed for a given input number
